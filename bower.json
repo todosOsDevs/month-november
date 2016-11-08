@@ -1,0 +1,21 @@
+{
+  "name": "todosOsDevs",
+  "homepage": "https://github.com/todosOsDevs/month-november",
+  "authors": [
+    "Cristiano Sommer <cristiano.silva.sommer@gmail.com>"
+  ],
+  "description": "cad usuário",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-css": "^3.3.6"
+  }
+}
