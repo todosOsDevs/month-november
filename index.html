@@ -7,6 +7,8 @@
 
     <!-- Bootstrap -->
     <link href="bower_components/bootstrap-css/css/bootstrap.min.css" rel="stylesheet">
+    <!-- My Style -->
+    <link href="skin/css/style.css" rel="stylesheet">
 
 </head>
 <body>
@@ -17,15 +19,20 @@
                 <a class="navbar-brand" href="#">TodosOsDevs (TOD)</a>
                 </div>
                 <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="#">Cadastro</a></li>
-                <li><a href="#">Alterar</a></li> 
-                <li><a href="#">Excluir</a></li> 
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">Cadastro</a></li>
+                    <li><a href="#">Editar</a></li> 
+                    <li><a href="#">Excluir</a></li> 
                 </ul>
             </div>
         </nav>
 
-        <p><input type="text" class="form-control" placeholder="Procurar o usuário"> <span class="glyphicon glyphicon-search"></span></p>
+        <div class="input-search">
+            <input type="text" class="form-control" placeholder="Procurar o usuário"> <span class="glyphicon glyphicon-search"></span>
+        </div>
+        <h2>
+            Lista de usuários
+        </h2>
         <table class="table">
             <thead>
             <tr>
@@ -68,3 +75,6 @@
     </div>
 </body>
 </html>
+
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="skin/js/app.js"></script>
